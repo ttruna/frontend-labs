@@ -1,0 +1,29 @@
+.app-container {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Додано стилі для заголовка, щоб виправити накладання рядків */
+.app-container h1 {
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.demo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px dashed #555;
+  border-radius: 10px;
+  width: 100%;
+}
